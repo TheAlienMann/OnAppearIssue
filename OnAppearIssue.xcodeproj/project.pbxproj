@@ -32,6 +32,7 @@
 		49650DA02B4AB8D300C0013D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		49650DAB2B4ABBA000C0013D /* OnAppearIssueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnAppearIssueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49650DAD2B4ABBA000C0013D /* OnAppearIssueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearIssueTests.swift; sourceTree = "<group>"; };
+		49650DB42B4ABD9000C0013D /* OnAppearIssue.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = OnAppearIssue.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +56,7 @@
 		49650D8D2B4AB8CF00C0013D = {
 			isa = PBXGroup;
 			children = (
+				49650DB42B4ABD9000C0013D /* OnAppearIssue.xctestplan */,
 				49650D982B4AB8CF00C0013D /* OnAppearIssue */,
 				49650DAC2B4ABBA000C0013D /* OnAppearIssueTests */,
 				49650D972B4AB8CF00C0013D /* Products */,
