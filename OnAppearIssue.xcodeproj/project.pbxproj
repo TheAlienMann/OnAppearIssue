@@ -13,6 +13,7 @@
 		49650DA12B4AB8D300C0013D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49650DA02B4AB8D300C0013D /* Preview Assets.xcassets */; };
 		49650DAE2B4ABBA000C0013D /* OnAppearIssueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49650DAD2B4ABBA000C0013D /* OnAppearIssueTests.swift */; };
 		49650DB62B4AC27E00C0013D /* TabViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49650DB52B4AC27E00C0013D /* TabViewView.swift */; };
+		49650DB82B4AC2C500C0013D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49650DB72B4AC2C500C0013D /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 		49650DAD2B4ABBA000C0013D /* OnAppearIssueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearIssueTests.swift; sourceTree = "<group>"; };
 		49650DB42B4ABD9000C0013D /* OnAppearIssue.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = OnAppearIssue.xctestplan; sourceTree = "<group>"; };
 		49650DB52B4AC27E00C0013D /* TabViewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewView.swift; sourceTree = "<group>"; };
+		49650DB72B4AC2C500C0013D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				49650D992B4AB8CF00C0013D /* OnAppearIssueApp.swift */,
 				49650D9B2B4AB8CF00C0013D /* ContentView.swift */,
+				49650DB72B4AC2C500C0013D /* LoginView.swift */,
 				49650DB52B4AC27E00C0013D /* TabViewView.swift */,
 				49650D9D2B4AB8D300C0013D /* Assets.xcassets */,
 				49650D9F2B4AB8D300C0013D /* Preview Content */,
@@ -204,6 +207,7 @@
 			files = (
 				49650D9C2B4AB8CF00C0013D /* ContentView.swift in Sources */,
 				49650D9A2B4AB8CF00C0013D /* OnAppearIssueApp.swift in Sources */,
+				49650DB82B4AC2C500C0013D /* LoginView.swift in Sources */,
 				49650DB62B4AC27E00C0013D /* TabViewView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
