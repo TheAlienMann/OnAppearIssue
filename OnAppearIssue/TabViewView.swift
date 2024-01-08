@@ -7,10 +7,11 @@ import SwiftUI
 struct TabViewView: View {
   let title: String
   let tabIcon: String
-  @Binding var isLoggedIn: Bool
+//  @Binding var isLoggedIn: Bool
   
   var body: some View {
-    NavigationStack {
+//    NavigationStack {
+    VStack {
       Text(title)
         .navigationBarTitle(title)
         .task {
@@ -22,13 +23,13 @@ struct TabViewView: View {
         .onDisappear {
           print("😶‍🌫️ \(title) onDisappear")
         }
-        .toolbar {
-          ToolbarItem(placement: .navigationBarTrailing) {
-            Button("Logout") {
-              isLoggedIn = false
-            }
-          }
-        }
+//        .toolbar {
+//          ToolbarItem(placement: .navigationBarTrailing) {
+//            Button("Logout") {
+//              isLoggedIn = false
+//            }
+//          }
+//        }
     }
     .task {
       print("🏋️ \(title) NavigationStack some task")
